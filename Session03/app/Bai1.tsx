@@ -1,16 +1,16 @@
 import React from "react";
-import { Text, View, Image, StyleSheet, Platform } from "react-native";
+import { Text, View, Image, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function Ex1() {
+export default function Bai1() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.card}>
         <Image
           style={styles.avatar}
-          source={{ uri: "https://picsuam.photos/100" }}
+          source={{ uri: "https://i.pravatar.cc/150" }}
         />
-        <Text style={styles.name}>Nguyễn Văn A</Text>
+        <Text style={styles.name}>Nguyễn Thế Minh</Text>
         <Text style={styles.description}>
           {" "}
           React Native Developer | UI/UX Enthusiast
