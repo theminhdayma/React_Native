@@ -34,7 +34,7 @@ export default function RootLayout() {
           ),
         }}
       />{" "}
-      {/* <Tabs.Screen
+      <Tabs.Screen
         name="Bai3"
         options={{
           title: "Bai3",
@@ -71,15 +71,6 @@ export default function RootLayout() {
         }}
       />{" "}
       <Tabs.Screen
-        name="Bai7"
-        options={{
-          title: "Bai7",
-          tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="house.fill" color={color} />
-          ),
-        }}
-      />{" "}
-      <Tabs.Screen
         name="Bai8"
         options={{
           title: "Bai8",
@@ -88,24 +79,6 @@ export default function RootLayout() {
           ),
         }}
       />{" "}
-      <Tabs.Screen
-        name="Bai9"
-        options={{
-          title: "Bai9",
-          tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="house.fill" color={color} />
-          ),
-        }}
-      />{" "}
-      <Tabs.Screen
-        name="Bai10"
-        options={{
-          title: "Bai10",
-          tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="house.fill" color={color} />
-          ),
-        }}
-      /> */}
     </Tabs>
   );
 }
