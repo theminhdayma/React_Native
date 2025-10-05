@@ -42,6 +42,18 @@ export default function ContactForm({
       Alert.alert("Lỗi", "Số điện thoại không được để trống");
       return;
     }
+    if (!email.trim() && email !== "") {
+      Alert.alert("Lỗi", "Email không hợp lệ");
+      return;
+    }
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      Alert.alert("Lỗi", "Email không hợp lệ");
+      return;
+    }
+    if (phone && !/^\d{10}$/.test(phone)) {
+      Alert.alert("Lỗi", "Số điện thoại không hợp lệ");
+      return;
+    }
     onSave({
       id: contact?.id || "",
       name: name.trim(),
