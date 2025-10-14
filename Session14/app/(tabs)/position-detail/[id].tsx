@@ -58,9 +58,7 @@ export default function PositionDetailScreen() {
     }
   };
 
-  // Cập nhật vị trí làm việc
   const handleUpdate = async () => {
-    // Validation
     if (!formData.positionName?.trim()) {
       Alert.alert("Lỗi", "Vui lòng nhập tên vị trí làm việc");
       return;
@@ -95,7 +93,6 @@ export default function PositionDetailScreen() {
     }
   };
 
-  // Xóa vị trí làm việc
   const handleDelete = () => {
     Alert.alert(
       "Xác nhận xóa",
